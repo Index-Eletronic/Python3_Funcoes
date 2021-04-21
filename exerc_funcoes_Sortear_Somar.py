@@ -4,14 +4,24 @@ A primeira função vai sortear 5 números e vai colocá-los dentro da lista e a
 '''
 
 from random import randint
+from time import sleep
 
 def sorteia(lista):
     for cont in range(0, 5):
-        lista.append(randint(1, 100))
-        print(f'Sorteando os valores de uma lista {cont}')
+        n = (randint(1, 10))
+        lista.append(n)
+        print(f'{n}', end=' ', flush=True)
+        sleep(0.3)
+    print('PRONTO')
 
-#def somaPar():
-
+def somaPar(lista):
+    # Vai varrer o vetor inteiro
+    soma = 0
+    for valor in lista: # Para cada valor na lista
+        if valor % 2 == 0:
+            soma += valor
+    print(f'Somando os valores pares de {lista}, temos {soma}')
 
 numeros = list()
 sorteia(numeros)
+somaPar(numeros)

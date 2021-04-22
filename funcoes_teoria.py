@@ -6,7 +6,7 @@ Funcoes teoria 2
 help(print())
 print(input.__doc__)
 
-# docstrings = Documento
+#=============================docstrings = Documento
 def contador(i, f, p):
    """
    ASPAS DUPLAS = docstrings ou manual.
@@ -21,7 +21,7 @@ def contador(i, f, p):
         c += p
     print('FIM')
 
-# Parametros Opcionais
+# =============================Parametros Opcionais
 def somar(a=0, b=0, c=0): # Quando NÃO tiver parametro, passa a valer 0.
     s= a + b + c
     print(f'A soma vale {s}')
@@ -30,7 +30,7 @@ def somar(a=0, b=0, c=0): # Quando NÃO tiver parametro, passa a valer 0.
 somar(3,2,5)
 somar(8.4)
 
-#Escopo de variaveis
+#================================Escopo de variaveis
 
 def soma(a=0, b=0, c=0):
     s = a + b + c

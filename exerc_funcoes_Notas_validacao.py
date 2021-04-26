@@ -12,6 +12,12 @@ Faça um programa que tenha uma função notas()
 '''
 
 def notas(*n, sit=False):
+    """
+    --> Função para analisar notas e situações de vários alunos.
+    :param n: Uma ou mais notas
+    :param sit: Valor opcional
+    :return: Dicionario com várias informações sobre a situação da turma.
+    """
     r = dict()
     r['total'] = len(n)
     r['maior'] = max(n)

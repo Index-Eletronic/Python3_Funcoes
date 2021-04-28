@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Documents/GitHub/Python2/.idea/Python2.iml" filepath="$USER_HOME$/Documents/GitHub/Python2/.idea/Python2.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/GitHub/Python3/.idea/Python3.iml" filepath="$USER_HOME$/Documents/GitHub/Python3/.idea/Python3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python3_Funcoes.iml" filepath="$PROJECT_DIR$/.idea/Python3_Funcoes.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/GitHub/Python_Modularizcao/.idea/Python_Modularizcao.iml" filepath="$USER_HOME$/Documents/GitHub/Python_Modularizcao/.idea/Python_Modularizcao.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/GitHub/cursopython/.idea/cursopython.iml" filepath="$USER_HOME$/Documents/GitHub/cursopython/.idea/cursopython.iml" />
     </modules>
   </component>
 </project>
